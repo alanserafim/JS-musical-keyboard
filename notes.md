@@ -29,7 +29,7 @@
             
 
 
-# Acessando todos os elementos de uma vez (document.querySelectorAll)
+## Acessando todos os elementos de uma vez (document.querySelectorAll)
 
     //selecionamos todos os elementos e obtivemos uma lista
     document.querySelectorAll('.tecla')
