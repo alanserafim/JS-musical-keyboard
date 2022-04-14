@@ -4,18 +4,18 @@ function tocaSom(idElementoAudio){
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
-let i = 0;
-while(i < listaDeTeclas.length){
-
+for(let i = 0; i < listaDeTeclas.length; i++){
+    //Atribui a tecla valor do tever no loop
     const tecla = listaDeTeclas[i];
+    //pega a classe da tecla no loop
     const instrumento = tecla.classList[1];
-    //'#som_{instrumento}
+    //"cria" o texto do id da tag de audio com template literals
     const idAudio = `#som_${instrumento}`;
+    //Coloca a função declarada acima tocaSom tendo como parametro id criado pela idAudio, para tocar o audio da tecla em questão 
     tecla.onclick = function () {
         tocaSom(idAudio);
-    } ;
-    
-    i++;
-    
-    console.log(i);
-}
+    };
+
+};
+
+
