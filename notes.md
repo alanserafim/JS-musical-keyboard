@@ -31,7 +31,14 @@
 
 # Acessando todos os elementos de uma vez (document.querySelectorAll)
 
+    //selecionamos todos os elementos e obtivemos uma lista
     document.querySelectorAll('.tecla')
 
+
+## Referência no javaScript
+
+    Deven ser declaradas com base nos valores que vão receber ou guardar
+    
+    const listaDeTeclas = document.querySelectorAll('.tecla)
 
 
